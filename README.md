@@ -1,4 +1,5 @@
 # Installation des paquets npm
+
 ```
 npm install
 ```
@@ -18,11 +19,14 @@ Application disponible en local sur le port 8070.
 Le projet devra être cloné sur votre machine locale à partir de l'URI suivante :
 
 SSH :
+
 ```bash
 git clone git@github.com:VirtuoWorks/eval-productivite.git
 ```
+
 ou bien
 HTTPS :
+
 ```bash
 git clone https://github.com/VirtuoWorks/eval-productivite.git
 ```
@@ -66,8 +70,9 @@ Si vous êtes bloqué sur cette question, passez à la suivante.
 Dans le projet a été intégrée une faille de sécurité béante...
 
 Insérez la chaîne de caractères suivante dans le champ du formulaire :
+
 ```javascript
-"<script>for(let i = 1; i < 20; i++) { alert(`Coucou ${i} fois !`) }</script>"
+"<script>for(let i = 1; i < 20; i++) { alert(`Coucou ${i} fois !`) }</script>";
 ```
 
 1. Corrigez cette faille de sécurité.
@@ -99,11 +104,13 @@ Vous vérifierez bien que vos tests unitaires passent tous.
 Si vous êtes bloqué sur cette question, passez à la suivante.
 
 Vous fusionnerez votre branche "eval" avec la branche "main". Si vous avez des conflits de fusion, corrigez les.
+
 ## 11 : Créer un dépôt distant (1pt)
 
 Si vous êtes bloqué sur cette question, passez à la suivante.
 
 Sur GitHub ou Bitbucket, à votre convenance, vous créerez un dépôt distant public afin de pouvoir y envoyer le code de votre application.
+
 ## 12 : Sauvegarder le code en ligne (1pt)
 
 Si vous êtes bloqué sur cette question, passez à la suivante.
@@ -114,4 +121,4 @@ Changer l'url du dépôt distant (la notre) par celle de votre dépôt local (la
 
 Une fois l'évaluation terminée, vous enverrez le lien vers votre dépôt distant à l'adresse e-mail alexandre.masson@virtuoworks.com en précisant dans l'objet de l'e-mail les informations suivantes : [NOM] [prénom] [Promotion DIWJS]
 
-Si vous __n'avez pas réussi__ à créer le dépôt distant ou pousser votre branche sur le dépôt distant, vous pouvez créer une archive avec votre dossier de travail __SANS le SOUS-DOSSIER__ `node_modules` et l'envoyer par mail à l'adresse alexandre.masson@virtuoworks.com en précisant dans l'objet de l'e-mail les informations suivantes : [NOM] [prénom] [Promotion DIWJS]
+Si vous **n'avez pas réussi** à créer le dépôt distant ou pousser votre branche sur le dépôt distant, vous pouvez créer une archive avec votre dossier de travail **SANS le SOUS-DOSSIER** `node_modules` et l'envoyer par mail à l'adresse alexandre.masson@virtuoworks.com en précisant dans l'objet de l'e-mail les informations suivantes : [NOM] [prénom] [Promotion DIWJS]
