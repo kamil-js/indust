@@ -7,7 +7,7 @@ const returnAnObject = (...args) => {
       index++;
     });
   } else {
-    response = "No argument was given to the function.";
+    response = 'No argument was given to the function.';
   }
   return response;
 };
@@ -20,9 +20,9 @@ const multiplyAllByTwo = (arrayOfNumbers) => {
     arrayOfNumbers.constructor.prototype === new Array().constructor.prototype
   ) {
     response = arrayOfNumbers.map((val) => val * 2);
-    console.log("arrayTimesTwo: ", response);
+    console.log('arrayTimesTwo: ', response);
   } else {
-    response = "The argument is not an Array of numbers";
+    response = 'The argument is not an Array of numbers';
   }
   return response;
 };
