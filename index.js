@@ -44,7 +44,9 @@ app.get('/', (req, res) => {
 
 app.post('/comment', (req, res) => {
   const comment = req.body.message;
-  res.send(comment);
+  const interdit = /<script>/;
+  const comment2 = comment.replace(interdit, 'ACCES INTERDIT: format non autorisé pour: ');
+  res.send(comment2);
 });
 
 /**
