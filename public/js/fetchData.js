@@ -53,7 +53,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   /**
    * Fonction asynchrone qui permet de  générer aléatoirement la capacité d'un pokemon dans l'API et 
-   * d'afficher la capacité du Pokémon sur la page HTML si la capacité est trouvée dans la base
+   * d'afficher la capacité du Pokémon sur la page HTML si la capacité est trouvée dans la base.
    */
   const fetchPokemonAbilities = async () => {
     /** @type {number} variable qui permet de générer aléatoirement un numéro de Pokémon qui permettra ensuite de trouver et afficher sa capacité*/
@@ -103,7 +103,7 @@ window.addEventListener('DOMContentLoaded', () => {
   };
 
   /**
-   * Fonction qui permet de trouver / générer le nom d'un Pokémon au clic
+   * Fonction qui permet de trouver / générer le nom d'un Pokémon au clic.
    *
    */
   const invoquePokemon = () => {
@@ -114,7 +114,7 @@ window.addEventListener('DOMContentLoaded', () => {
   };
 
   /**
-   * Fonction qui permet de générer une capacité du pokemon au clic sur le bouton de l'utilisateur
+   * Fonction qui permet de générer une capacité du pokemon au clic sur le bouton de l'utilisateur.
    *
    */
   const pokemonAbility = () => {
@@ -124,7 +124,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
    /**
    * Fonction IIFE qui exécute les 2 fonctions qui permettent de trouver les pokemons ainsi que leurs capacités
-   * au clic sur le bouton de l'utilisateur
+   * au clic sur le bouton de l'utilisateur.
    */
   (function startAll() {
     invoquePokemon();
